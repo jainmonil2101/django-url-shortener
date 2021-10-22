@@ -1,8 +1,5 @@
 from django.shortcuts import render, redirect
 import pyshorteners
-from django.contrib.sites.models import Site
-
-
 
 def index(request):
     if request.method == 'POST':
